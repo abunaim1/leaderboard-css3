@@ -18,6 +18,39 @@ main {
   margin-bottom: 30px;
   border-radius: 5px;
 }
+/* Navigation Styles */
+nav {
+  display: flex;
+  height: 75px;
+  align-items: center;
+  justify-content: space-around;
+  background: #562eff;
+}
+.logo {
+  padding-left: 50px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.logo img {
+  width: 40.42px;
+  height: 51px;
+}
+.logo p {
+  color: white;
+}
+.profile {
+  padding-right: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row-reverse;
+  gap: 20px;
+}
+.profile a {
+  text-decoration: none;
+  color: white;
+}
 /* top players styles */
 .top-players {
   margin-bottom: 40px;
@@ -93,7 +126,7 @@ hr {
   color: #1e1e1e;
   font-size: 15px;
 }
-.rating{
-    color: #FFC014;
-    font-size: 12px;
+.rating {
+  color: #ffc014;
+  font-size: 12px;
 }
